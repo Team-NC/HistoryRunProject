@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AvoidArrowGameScene.unity
     guid: a533f74854b6941bab80ac59bef31157
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameScene.unity
+    guid: 238b8bd77915c466a86233e04a3669c2
+  - enabled: 1
+    path: Assets/Scenes/PuzzleDoneScene.unity
+    guid: ae6fb0eeb51114a168cf8ba7a0e1c786
   m_configObjects: {}

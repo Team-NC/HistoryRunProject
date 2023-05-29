@@ -5,6 +5,8 @@ public class PUZ_DragAndDrop : MonoBehaviour
 {
     public GameObject SelectedPiece;
 
+    public int correctPieces = 0;
+    
     private int OIL = 1;
     
     // Start is called before the first frame update
@@ -36,8 +38,13 @@ public class PUZ_DragAndDrop : MonoBehaviour
             if (SelectedPiece != null)
             {
                 SelectedPiece.GetComponent<PUZ_PiecesScript>().Selected = false;
-                SelectedPiece = null; 
+                SelectedPiece = null;
+                // if (SelectedPiece.GetComponent<PUZ_PiecesScript>().InRightPosition == true)
+                // {
+                //     Debug.Log("check");
+                // }
             }
+
         }
 
         if (SelectedPiece != null)
